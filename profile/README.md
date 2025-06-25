@@ -1,10 +1,11 @@
 # WebForms Core Technology
 
-WebForms Core is an advanced technology for manipulating HTML tags on the server. It is a radical technology that eliminates the need for front-end development. Using WebForms Core is the easiest way to build web-based systems.
+WebForms Core is an advanced technology for manipulating HTML tags on the server. It is a radical technology that eliminates the need for front-end development. WebForms Core is the easiest way to build web-based systems, because you only need to design an HTML page and manage it using server-side code.
 
-### Example
+In this technology, the [WebForms class](https://github.com/webforms-core/Web_forms_classes) on the server automatically communicates with the [WebFormsJS](https://github.com/webforms-core/Web_forms) library on the client side. To use this technology, you only need to include the WebFormsJS library in the head section of the HTML page and use the WebForms class on the server side.
 
-**Server code**
+## Example
+
 ```csharp
 WebForms form = new WebForms();
 

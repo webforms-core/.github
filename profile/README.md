@@ -5,7 +5,7 @@ WebForms Core is an advanced technology for manipulating HTML tags on the server
 ### Example
 
 **Server code**
-```
+```csharp
 WebForms form = new WebForms();
 
 form.AddTag("<form>", "h3");
@@ -17,6 +17,7 @@ form.SetWidth("<form>|<img>-1", 400);
 Write(form.Response());
 ```
 
-**Result**
-
+Result
+-
 ![WebForms Core Technology - Image Upload Example](https://github.com/user-attachments/assets/57dc4b66-e051-4157-b162-515a1438aac7)
+-

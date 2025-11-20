@@ -4,6 +4,8 @@ WebForms Core is an advanced technology for manipulating HTML tags on the server
 
 **The Renaissance of the Server**
 
+> WebForms Core uses a **server-command/client-execution** approach rather than the conventional **request–response cycle** model that other web frameworks use to handle state and render the UI.
+
 In this technology, the [WebForms class](https://github.com/webforms-core/Web_forms_classes) on the server automatically communicates with the [WebFormsJS](https://github.com/webforms-core/Web_forms) library on the client side. To use this technology, you only need to include the WebFormsJS library in the head section of the HTML page and use the WebForms class on the server side.
 
 ## Example
